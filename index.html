@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
         <!--=============== REMIXICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
         
@@ -20,8 +20,7 @@
 <body>
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo">Travel</a>
-
+           
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
@@ -42,7 +41,11 @@
 
                 <i class="ri-close-line nav__close" id="nav-close"></i>
             </div>
-
+            <a href="#" class="nav__logo"><img src="images/logo.png" alt="" ></a>
+            <div class="mob ">
+                <a href="tel:+90896745231">+90896745231</a>
+                <a href="tel:898888888">+9078563412</a>
+            </div>
             <div class="nav__toggle" id="nav-toggle">
                 <i class="ri-function-line"></i>
             </div>
@@ -50,39 +53,58 @@
     </header>
     <main class="main">
         <!--==================== HOME ====================-->
-        <section class="home" id="home">
-            <img src="images/download.webp" alt="" class="home__img">
-
-            <div class="home__container container grid">
-                <div class="home__data">
-                    <span class="home__data-subtitle">Discover your place</span>
-                    <h1 class="home__data-title">Explore The <br> Best <b>Beautiful <br> Beaches</b></h1>
-                    <a href="#" class="button">Explore</a>
-
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
-                        <i class="ri-facebook-box-fill"></i>
-                    </a>
-                    <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
-                        <i class="ri-instagram-fill"></i>
-                    </a>
-                    <a href="https://twitter.com/" target="_blank" class="home__social-link">
-                        <i class="ri-twitter-fill"></i>
-                    </a>
-                </div>
-
-                <div class="home__info">
+        <div class="home" id="home">
+            <img src="images/banner.png" alt="" class="home__img">
+            <!-- <video autoplay muted loop src="images/WhatsApp Video 2023-05-26 at 9.54.58 PM.mp4"></video> -->
+            <div class="">
+                <div class="home__container container">
                     <div>
-                        <span class="home__info-title">5 best places to visit</span>
-                        <a href="" class="button button--flex button--link home__info-button">
-                            More <i class="ri-arrow-right-line"></i>
-                        </a>
+                        <div class="home__data">
+                            <span class="home__data-subtitle">Discover your place</span>
+                            <h1 class="home__data-title">Explore The <br> Best <b>Beautiful <br> Beaches</b></h1>
+                            <a href="#" class="button">Explore</a>
+        
+                        </div>
+        
+                        <div class="home__social">
+                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
                     </div>
-
-                    <div class="home__info-overlay">
-                        <img src="images/img.png" alt="" class="home__info-img">
+    
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">5 best places to visit</span>
+                            <a href="" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+    
+                        <div class="home__info-overlay">
+                            <img src="images/img.png" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="about">
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="section__title" style="text-align: start;">About Kombanism Holydays</div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui provident asperiores obcaecati, iste eaque veritatis dolor placeat vitae impedit cum, sed dolore nemo ut eius adipisci nam incidunt architecto quia.</p>
+                        <a href="about.html" class="btn-main">Learn More</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/3buses-removebg-preview 1.png" alt="">
                     </div>
                 </div>
             </div>
@@ -91,10 +113,30 @@
             
             <div class="container">
                 <div class="row">
-                    <div class="col-m-6">
-                        <div class="section__title">About Kombanism Holydays</div>
+                    <div class="col-md-6">
+                        <img src="images/bus4-removebg-preview.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section__title" style="text-align: start;">About Kombanism Holydays</div>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui provident asperiores obcaecati, iste eaque veritatis dolor placeat vitae impedit cum, sed dolore nemo ut eius adipisci nam incidunt architecto quia.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, cum, esse ducimus omnis odit sunt quaerat quos quas itaque facere maxime iusto eligendi aperiam recusandae repellendus cupiditate nihil voluptatem ea!</p>
                         <a href="about.html" class="btn-main">Learn More</a>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+        <section class="buses">
+            <div class="section__title">Our Bus Collections</div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="box ">
+                            <img src="images/bus.jpg" alt="">
+                            <div class="detail-bx d-flex align-items-center flex-column">
+                                <div class="name">Kuttikomban</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
