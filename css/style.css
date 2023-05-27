@@ -77,7 +77,18 @@ ul {
     padding: 4.5rem 0 2.5rem;
     
   }
-  
+  .btn-main{
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-size: 16px;
+    border: 0;
+    transition: .4s;
+  }
+  .btn-main:hover{
+    background-color: var(--dark-color);
+    border: 2px solid var(--primary-color);
+  }
   .section__title {
     font-size: var(--h1-font-size);
     color: var(--title-color);
