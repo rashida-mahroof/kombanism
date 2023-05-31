@@ -37,3 +37,31 @@ function scrollHeader(){
     if(this.scrollY >= 100) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
+
+
+$(".banner-carousel").owlCarousel({
+    autoplay: true,
+    smartSpeed: 1500,
+    margin: 30,
+    dots: false,
+    loop: true,
+    nav : true,
+    navText : [
+        '<i class="fa-solid fa-chevron-left" aria-hidden="true"></i>',
+        '<i class="fa-solid fa-chevron-right" aria-hidden="true"></i>'
+    ],
+    responsive: {
+        0:{
+            items:1
+        },
+        576:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        992:{
+            items:1
+        }
+    }
+});

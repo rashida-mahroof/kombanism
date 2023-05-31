@@ -7,6 +7,7 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/anime-re.css">
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
         <!--=============== REMIXICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -18,6 +19,7 @@
    <title>Kombanism Holydays</title>
 </head>
 <body>
+    <a href=""><div class="float-icon"><i class="ri-whatsapp-line"></i></div></a>
     <header class="header" id="header">
         <nav class="nav container">
            
@@ -35,6 +37,10 @@
                     <li class="nav__item">
                         <a href="contact.html" class="nav__link">Contact Us</a>
                     </li>
+                    <div class="mob mob1">
+                        <a href="tel:+90896745231">+90896745231</a>
+                        <a href="tel:898888888">+9078563412</a>
+                    </div>
                 </ul>
 
                 
@@ -42,7 +48,7 @@
                 <i class="ri-close-line nav__close" id="nav-close"></i>
             </div>
             <a href="#" class="nav__logo"><img src="images/logo.png" alt="" ></a>
-            <div class="mob ">
+            <div class="mob">
                 <a href="tel:+90896745231">+90896745231</a>
                 <a href="tel:898888888">+9078563412</a>
             </div>
@@ -54,6 +60,7 @@
     <main class="main">
         <!--==================== HOME ====================-->
         <div class="home" id="home">
+            <!-- <video autoplay loop muted  class="home__img" src="images/WhatsApp Video 2023-05-26 at 9.54.58 PM.mp4"></video> -->
             <img src="images/Component 1 (1).png" alt="" class="home__img">
             <!-- <video autoplay muted loop src="images/WhatsApp Video 2023-05-26 at 9.54.58 PM.mp4"></video> -->
             <div class="">
@@ -61,8 +68,8 @@
                     <div>
                         <div class="home__data">
                             <span class="home__data-subtitle">Discover your place</span>
-                            <h1 class="home__data-title">Explore The <br> Best <b>Beautiful <br> Beaches</b></h1>
-                            <a href="#" class="button">Explore</a>
+                            <h1 class="home__data-title">Charter With Us  <br>For An  <b style="color:yellow;">Adventure-Filled Journey </b></h1>
+                             <a href="#" class="btn-main">Explore</a>
         
                         </div>
         
@@ -80,16 +87,37 @@
                     </div>
     
                     <div class="home__info">
-                        <div>
-                            <span class="home__info-title">5 best places to visit</span>
-                            <a href="" class="button button--flex button--link home__info-button">
-                                More <i class="ri-arrow-right-line"></i>
-                            </a>
+<!--                       
+                            <div class="home__info-overlay">
+                                <img src="images/img.png" alt="" class="home__info-img">
+                           
+                       </div> -->
+                       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <!-- <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol> -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/bus1.jpg" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="images/bus2.jpg" alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="images/bus3.jpg" alt="Third slide">
+                          </div>
                         </div>
-    
-                        <div class="home__info-overlay">
-                            <img src="images/img.png" alt="" class="home__info-img">
-                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <!-- <i class="ri-arrow-left-s-line"></i> -->
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <!-- <i class="ri-arrow-right-s-line"></i> -->
+                        </a>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -98,26 +126,26 @@
             
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 js-scroll slide-left">
                         <span class="prehead">About us</span>
                         <div class="section__title" style="text-align: start;">About Kombanism Holydays</div>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui provident asperiores obcaecati, iste eaque veritatis dolor placeat vitae impedit cum, sed dolore nemo ut eius adipisci nam incidunt architecto quia.</p>
                         <a href="about.html" class="btn-main">Learn More</a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 js-scroll slide-right">
                         <img src="images/3buses-removebg-preview 1.png" alt="">
                     </div>
                 </div>
             </div>
         </section>
-        <section class="about bg-white">
+        <section class="about bg-white about1">
             
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 js-scroll slide-left">
                         <img src="images/bus4-removebg-preview (1).png" alt="">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 js-scroll slide-right">
                         <span class="prehead">Why chose us</span>
                         <div class="section__title" style="text-align: start;">About Kombanism Holydays</div>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui provident asperiores obcaecati, iste eaque veritatis dolor placeat vitae impedit cum, sed dolore nemo ut eius adipisci nam incidunt architecto quia.</p>
@@ -164,7 +192,7 @@
             <div class="section__title">We Provide Best Services For You</div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 js-scroll slide-left">
                         <div class="service-bx d-flex flex-column">
                             <i class="ri-bus-2-line"></i>
                             <div class="title">Tours & Excursions</div>
@@ -172,7 +200,7 @@
                             <a href="" class="btn-main">Learn more</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 js-scroll fade-in-bottom">
                         <div class="service-bx d-flex flex-column">
                             <i class="ri-timer-flash-line"></i>
                             <div class="title">Schedule On Time</div>
@@ -180,7 +208,7 @@
                             <a href="" class="btn-main">Learn more</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 js-scroll slide-right">
                         <div class="service-bx d-flex flex-column">
                             <i class="ri-shield-check-line"></i>
                             <div class="title">Safety Guarantee</div>
@@ -188,7 +216,7 @@
                             <a href="" class="btn-main">Learn more</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 js-scroll slide-left">
                         <div class="service-bx d-flex flex-column">
                             <i class="ri-price-tag-3-line"></i>
                             <div class="title">Discount & Promo</div>
@@ -196,15 +224,15 @@
                             <a href="" class="btn-main">Learn more</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 js-scroll fade-in-bottom">
                         <div class="service-bx d-flex flex-column">
                             <i class="ri-article-line"></i>
                             <div class="title">Professional Staff</div>
                             <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quibusdam fuga error animi beatae quasi voluptatum.</div>
                             <a href="" class="btn-main">Learn more</a>
                         </div>
-                    </div>
-                    <div class="col-md-4">
+                    </div> 
+                    <div class="col-md-4 js-scroll slide-right">
                         <div class="service-bx d-flex flex-column">
                             <i class="ri-bring-forward"></i>
                             <div class="title">Wedding and other parties</div>
@@ -220,13 +248,14 @@
             <div class="section__title">Our Best Buses</div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 js-scroll slide-left">
                         
                         <div class="box">
-                            <div class="img-bx">
-                                <img src="images/bus7.jpg" alt="">
-                            </div>
+                            
                             <div class="detail-bx d-flex align-items-center flex-column">
+                                <div class="img-bx">
+                                    <img src="images/bus7.jpg" alt="">
+                                </div>
                                 <div class="name">Kuttikomban</div>
                                 <div class="rate"><span>₹2000/day</span></div>
                             <div class="spec d-flex flex-column align-items-center">
@@ -252,13 +281,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 js-scroll fade-in-bottom">
                         
                         <div class="box">
-                            <div class="img-bx">
-                                <img src="images/bus6.jpg" alt="">
-                            </div>
+                           
                             <div class="detail-bx d-flex align-items-center flex-column">
+                                <div class="img-bx">
+                                    <img src="images/bus6.jpg" alt="">
+                                </div>
                                 <div class="name">Arikomban</div>
                                 <div class="rate"><span>₹10000/day</span></div>
                             <div class="spec d-flex flex-column align-items-center">
@@ -284,13 +314,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 js-scroll slide-right">
                         
                         <div class="box">
-                            <div class="img-bx">
-                                <img src="images/smallbus1.jpg" alt="">
-                            </div>
+                           
                             <div class="detail-bx d-flex align-items-center flex-column">
+                                <div class="img-bx">
+                                    <img src="images/smallbus1.jpg" alt="">
+                                </div>
                                 <div class="name">Chakkakomban</div>
                                 <div class="rate"><span>₹2500/day</span></div>
                             <div class="spec d-flex flex-column align-items-center">
@@ -323,14 +354,14 @@
            <section class="testimonial">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-12">
+                    <div class="col-md-3 col-12 js-scroll slide-left">
                         <img src="images/bus3.jpg" alt="">
                       </div>
-                    <div class="col-md-9 col-12">
+                    <div class="col-md-9 col-12 js-scroll slide-right">
                         <div class="prehead">testimonial</div>
                         <div class="section__title text-start">What our Clients say</div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, reprehenderit ex ab quisquam blanditiis esse commodi unde qui deserunt dolorum eos temporibus sunt?</p>
-                        <div class="row">
+                        <div class="row js-scroll fade-in-bottom">
                             <div class="col-md-6">
                                 <div class="testi-bx d-flex align-items-center">
                                      <div class="d-flex flex-column align-items-center">
@@ -383,33 +414,86 @@
         
             </div>
            </section>
-           <section class="destinations">
+           <section class="destinations bg-white">
+            <div class="prehead" style="text-align: center;display: block;">Destinations</div>
+            <div class="section__title">Our Favourite Destinations</div>
            <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-                  <div class="dest-bx">
-                    <img src="images/bus1.jpg" alt="">
-                    <div class="dest-details">
-                        <div class="title">Lorem Ipsem</div>
+            <div class="row js-scroll fade-in-bottom">
+                <div class="col-md-4 col-sm-4 col-lg-2">
+                  <div class="dest-bx ">
+                    <img class="" src="images/desti1.jpg" alt="">
+                    <div class="dest-details ">
+                        <div class="title">Moonnar</div>
                         <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
                         
                     </div>
                   </div>
                 </div>
+                <div class="col-md-4 col-sm-4 col-lg-2">
+                    <div class="dest-bx ">
+                      <img class="" src="images/desti2.jpg" alt="">
+                      <div class="dest-details ">
+                          <div class="title">Vagamon</div>
+                          <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-lg-2">
+                    <div class="dest-bx ">
+                      <img class="" src="images/desti3.webp" alt="">
+                      <div class="dest-details ">
+                          <div class="title">Alappuzha</div>
+                          <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-lg-2">
+                    <div class="dest-bx ">
+                      <img class="" src="images/desti4.jpg" alt="">
+                      <div class="dest-details ">
+                          <div class="title">Ooty</div>
+                          <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-lg-2">
+                    <div class="dest-bx ">
+                      <img class="" src="images/desti5.jpg" alt="">
+                      <div class="dest-details ">
+                          <div class="title">Mysoor</div>
+                          <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-lg-2">
+                    <div class="dest-bx ">
+                      <img class="" src="images/desti6.jpg" alt="">
+                      <div class="dest-details ">
+                          <div class="title">Kodaikanal</div>
+                          <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                      </div>
+                    </div>
+                  </div>
+                  
             </div>
            </div>
            </section>
+           
     </main>
+   
+       
     <!--==================== FOOTER ====================-->
-    <footer class="footer section">
-        <div class="footer__container container grid">
-            <div class="footer__content grid">
-                <div class="footer__data">
-                    <h3 class="footer__title">Travel</h3>
+    <footer class="footer ">
+        <div class="footer__container container ">
+            <div class="footer__content row">
+                <div class="col-md-3 footer__data">
+                    <div class="" style="width:100px;">
+                        <img src="images/logo.png" alt="" width="40px">
+                    </div>
                     <p class="footer__description">Travel you choose the <br> destination, 
                         we offer you the <br> experience.
                     </p>
-                    <div>
+                    <div class="footer__social">
                         <a href="https://www.facebook.com/" target="_blank" class="footer__social">
                             <i class="ri-facebook-box-fill"></i>
                         </a>
@@ -425,37 +509,40 @@
                     </div>
                 </div>
 
-                <div class="footer__data">
-                    <h3 class="footer__subtitle">About</h3>
+                <div class=" col-md-3 footer__data">
+                    <h3 class="footer__subtitle">Links</h3>
                     <ul>
                         <li class="footer__item">
-                            <a href="" class="footer__link">About Us</a>
+                            <a href="index.html" class="footer__link">Home</a>
                         </li>
                         <li class="footer__item">
-                            <a href="" class="footer__link">Features</a>
+                            <a href="about.html" class="footer__link">About Us</a>
                         </li>
                         <li class="footer__item">
-                            <a href="" class="footer__link">New & Blog</a>
+                            <a href="packages.html" class="footer__link">Packages</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="contact.html" class="footer__link">Contact</a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="footer__data">
+                <div class=" col-md-3 footer__data">
                     <h3 class="footer__subtitle">Company</h3>
                     <ul>
                         <li class="footer__item">
-                            <a href="" class="footer__link">Team</a>
+                            <a href="" class="footer__link"><i class="ri-map-pin-line"></i>Team hyjuii</a>
                         </li>
                         <li class="footer__item">
-                            <a href="" class="footer__link">Plan y Pricing</a>
+                            <a href="" class="footer__link"><i class="ri-phone-line"></i>+345678</a>
                         </li>
                         <li class="footer__item">
-                            <a href="" class="footer__link">Become a member</a>
+                            <a href="" class="footer__link"><i class="ri-mail-line"></i>a@gmail.cpm</a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="footer__data">
+                <div class="col-md-3 footer__data">
                     <h3 class="footer__subtitle">Support</h3>
                     <ul>
                         <li class="footer__item">
@@ -474,6 +561,10 @@
             
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/anime-re.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 
 </body>
