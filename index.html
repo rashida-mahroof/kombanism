@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/anime-re.css">
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
         <!--=============== REMIXICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        
-        <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
-   
+    
    <title>Kombanism Holydays</title>
 </head>
 <body>
     <a href=""><div class="float-icon"><i class="ri-whatsapp-line"></i></div></a>
     <header class="header" id="header">
         <nav class="nav container">
-           
+            <a href="#" class="nav__logo"><img src="images/logo.png" alt="" ></a>
+            
             <div class="nav__menu" id="nav-menu">
+                
                 <ul class="nav__list">
                     <li class="nav__item">
                         <a href="index.html" class="nav__link active-link">Home</a>
@@ -37,7 +39,7 @@
                     <li class="nav__item">
                         <a href="contact.html" class="nav__link">Contact Us</a>
                     </li>
-                    <div class="mob mob1">
+                    <div class="mob mob1 ">
                         <a href="tel:+90896745231">+90896745231</a>
                         <a href="tel:898888888">+9078563412</a>
                     </div>
@@ -47,8 +49,7 @@
 
                 <i class="ri-close-line nav__close" id="nav-close"></i>
             </div>
-            <a href="#" class="nav__logo"><img src="images/logo.png" alt="" ></a>
-            <div class="mob">
+            <div class="mob mb-3">
                 <a href="tel:+90896745231">+90896745231</a>
                 <a href="tel:898888888">+9078563412</a>
             </div>
@@ -60,16 +61,17 @@
     <main class="main">
         <!--==================== HOME ====================-->
         <div class="home" id="home">
-            <!-- <video autoplay loop muted  class="home__img" src="images/WhatsApp Video 2023-05-26 at 9.54.58 PM.mp4"></video> -->
-            <img src="images/Component 1 (1).png" alt="" class="home__img">
+            <video autoplay loop muted  class="home__img" src="images/WhatsApp Video 2023-05-26 at 9.54.58 PM.mp4"></video>
+            <!-- <img src="images/road.jpg" alt="" class="home__img"> -->
             <!-- <video autoplay muted loop src="images/WhatsApp Video 2023-05-26 at 9.54.58 PM.mp4"></video> -->
-            <div class="">
-                <div class="home__container container">
-                    <div>
+            <div class="home-overlay">
+                <div class="home__container">
+                    <div class="container">
                         <div class="home__data">
                             <span class="home__data-subtitle">Discover your place</span>
-                            <h1 class="home__data-title">Charter With Us  <br>For An  <b style="color:yellow;">Adventure-Filled Journey </b></h1>
-                             <a href="#" class="btn-main">Explore</a>
+                            <h1 class="home__data-title">Charter With Us  <br>For An  <b>Adventure-Filled Journey </b></h1>
+                            <p class="home-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, suscipit consequatur. Minima perspiciatis aut aspernatur eius voluptate explicabo nulla quibusdam hic</p> 
+                            <a href="#" class="btn-main">Explore</a>
         
                         </div>
         
@@ -86,41 +88,12 @@
                         </div>
                     </div>
     
-                    <div class="home__info">
-<!--                       
-                            <div class="home__info-overlay">
-                                <img src="images/img.png" alt="" class="home__info-img">
-                           
-                       </div> -->
-                       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <!-- <ol class="carousel-indicators">
-                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol> -->
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img class="d-block w-100" src="images/bus1.jpg" alt="First slide">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="images/bus2.jpg" alt="Second slide">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="images/bus3.jpg" alt="Third slide">
-                          </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <!-- <i class="ri-arrow-left-s-line"></i> -->
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <!-- <i class="ri-arrow-right-s-line"></i> -->
-                        </a>
-                      </div>
-                    </div>
+                    
                 </div>
             </div>
+        </div>
+        <div class="bot-sec">
+            
         </div>
         <section class="about">
             
@@ -256,12 +229,12 @@
                                 <div class="img-bx">
                                     <img src="images/bus7.jpg" alt="">
                                 </div>
-                                <div class="name">Kuttikomban</div>
+                                <div class="name">24 Seats</div>
                                 <div class="rate"><span>₹2000/day</span></div>
                             <div class="spec d-flex flex-column align-items-center">
                                 <div class="rw d-flex flex-row align-items-center">
                                     <i class=" ri-group-fill "></i>
-                                    <span>24 Seats</span>
+                                    <span>lorem ipsem</span>
                                 </div>
                                 <div class="rw d-flex flex-row align-items-center">
                                     <i class="ri-steering-line"></i>
@@ -281,20 +254,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 js-scroll fade-in-bottom">
+                    <div class="col-md-4 js-scroll slide-left">
                         
                         <div class="box">
-                           
+                            
                             <div class="detail-bx d-flex align-items-center flex-column">
                                 <div class="img-bx">
-                                    <img src="images/bus6.jpg" alt="">
+                                    <img src="images/bus7.jpg" alt="">
                                 </div>
-                                <div class="name">Arikomban</div>
-                                <div class="rate"><span>₹10000/day</span></div>
+                                <div class="name">24 Seats</div>
+                                <div class="rate"><span>₹2000/day</span></div>
                             <div class="spec d-flex flex-column align-items-center">
                                 <div class="rw d-flex flex-row align-items-center">
                                     <i class=" ri-group-fill "></i>
-                                    <span>24 Seats</span>
+                                    <span>lorem ipsem</span>
                                 </div>
                                 <div class="rw d-flex flex-row align-items-center">
                                     <i class="ri-steering-line"></i>
@@ -314,20 +287,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 js-scroll slide-right">
+                    <div class="col-md-4 js-scroll slide-left">
                         
                         <div class="box">
-                           
+                            
                             <div class="detail-bx d-flex align-items-center flex-column">
                                 <div class="img-bx">
-                                    <img src="images/smallbus1.jpg" alt="">
+                                    <img src="images/bus7.jpg" alt="">
                                 </div>
-                                <div class="name">Chakkakomban</div>
-                                <div class="rate"><span>₹2500/day</span></div>
+                                <div class="name">24 Seats</div>
+                                <div class="rate"><span>₹2000/day</span></div>
                             <div class="spec d-flex flex-column align-items-center">
                                 <div class="rw d-flex flex-row align-items-center">
                                     <i class=" ri-group-fill "></i>
-                                    <span>24 Seats</span>
+                                    <span>lorem ipsem</span>
                                 </div>
                                 <div class="rw d-flex flex-row align-items-center">
                                     <i class="ri-steering-line"></i>
@@ -345,13 +318,29 @@
                         </div>
                         <a href="" class="btn-main">View Details</a>
                             </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="banner-highlight">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 js-scroll slide-left">
+                            <h2>Get 30% off on Top Destinations</h2>
+                            <p>Book your tickets before dec 30 and avail 30% flat discount. </p>
+                        </div>
+                        <div class="col-md-4 js-scroll slide-right">
+                            <button class="btn-booking">Book Now</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         
-           <section class="testimonial">
+        <section class="testimonial bg-light">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-12 js-scroll slide-left">
@@ -409,11 +398,7 @@
                 </div>
             </div>
            </section>
-           <section class="galley">
-            <div class="container">
-        
-            </div>
-           </section>
+           
            <section class="destinations bg-white">
             <div class="prehead" style="text-align: center;display: block;">Destinations</div>
             <div class="section__title">Our Favourite Destinations</div>
@@ -533,8 +518,9 @@
                         <li class="footer__item">
                             <a href="" class="footer__link"><i class="ri-map-pin-line"></i>Team hyjuii</a>
                         </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link"><i class="ri-phone-line"></i>+345678</a>
+                        <li class="footer__item ">
+                            <a href="" class="footer__link"><i class="ri-phone-line"></i>+345678908</a>
+                           
                         </li>
                         <li class="footer__item">
                             <a href="" class="footer__link"><i class="ri-mail-line"></i>a@gmail.cpm</a>
@@ -562,10 +548,10 @@
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     
+<script src="js/owl.carousel.min.js"></script>
     <script src="js/anime-re.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+   <script src="js/main.js"></script>
 
 </body>
 </html>

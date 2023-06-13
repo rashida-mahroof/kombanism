@@ -38,30 +38,90 @@ function scrollHeader(){
 }
 window.addEventListener('scroll', scrollHeader)
 
+function initMap() {
+    var mapOptions = {
+      center: { lat: 11.931948, lng: 75.573752 }, // Set the coordinates for the map center
+      zoom: 12 // Set the initial zoom level
+    };
+    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+  }
 
-$(".banner-carousel").owlCarousel({
-    autoplay: true,
-    smartSpeed: 1500,
-    margin: 30,
-    dots: false,
-    loop: true,
-    nav : true,
-    navText : [
-        '<i class="fa-solid fa-chevron-left" aria-hidden="true"></i>',
-        '<i class="fa-solid fa-chevron-right" aria-hidden="true"></i>'
-    ],
-    responsive: {
-        0:{
-            items:1
-        },
-        576:{
-            items:1
-        },
-        768:{
-            items:1
-        },
-        992:{
-            items:1
-        }
+
+/*==================== VIDEO ====================*/
+const videoFile = document.getElementById('video-file'),
+      videoButton = document.getElementById('video-button'),
+      videoIcon = document.getElementById('video-icon')
+
+function playPause(){ 
+    if (videoFile.paused){
+        // Play video
+        videoFile.play()
+        // We change the icon
+        videoIcon.classList.add('ri-pause-line')
+        videoIcon.classList.remove('ri-play-line')
     }
-});
+    else {
+        // Pause video
+        videoFile.pause(); 
+        // We change the icon
+        videoIcon.classList.remove('ri-pause-line')
+        videoIcon.classList.add('ri-play-line')
+
+    }
+}
+videoButton.addEventListener('click', playPause)
+
+function finalVideo(){
+    // Video ends, icon change
+    videoIcon.classList.remove('ri-pause-line')
+    videoIcon.classList.add('ri-play-line')
+}
+// ended, when the video ends
+videoFile.addEventListener('ended', finalVideo)
+
+  $(document).ready(function(){
+    $('#gallery').owlCarousel({
+      nav: true, // Enable navigation arrows
+      dots: true, // Enable dots navigation
+      autoplay:true,
+      loop:true,
+      navText: [
+        '<i class="ri-arrow-left-s-line" style="color: #787878;font-size: 2rem; background-color: #fff;"></i>', // Remix icon for previous button
+        '<i class="ri-arrow-right-s-line" style="color: #787878;font-size: 2rem; background-color: #fff;"></i>' // Remix icon for next button
+      ],
+      responsive: {
+        0: {
+          items: 1 // Number of items to show at different screen sizes
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  });
+  $(document).ready(function(){
+    $('#testimonial1').owlCarousel({
+      nav: true, // Enable navigation arrows
+      dots: true, // Enable dots navigation
+      autoplay:true,
+      loop:true,
+    //   navText: [
+    //     '<i class="ri-arrow-left-s-line" style="color: #787878;font-size: 2rem; background-color: #fff;"></i>', // Remix icon for previous button
+    //     '<i class="ri-arrow-right-s-line" style="color: #787878;font-size: 2rem; background-color: #fff;"></i>' // Remix icon for next button
+    //   ],
+      responsive: {
+        0: {
+          items: 1 // Number of items to show at different screen sizes
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 2
+        }
+      }
+    });
+  });
