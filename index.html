@@ -8,10 +8,11 @@
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/anime-re.css">
-   <link rel="stylesheet" href="css/owl.carousel.min.css">
-   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
         <!--=============== REMIXICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -61,9 +62,8 @@
     <main class="main">
         <!--==================== HOME ====================-->
         <div class="home" id="home">
-            <video autoplay loop muted  class="home__img" src="images/WhatsApp Video 2023-05-26 at 9.54.58 PM.mp4"></video>
-            <!-- <img src="images/road.jpg" alt="" class="home__img"> -->
-            <!-- <video autoplay muted loop src="images/WhatsApp Video 2023-05-26 at 9.54.58 PM.mp4"></video> -->
+            <!-- <video autoplay loop muted  class="home__img" src="images/WhatsApp Video 2023-05-26 at 9.54.58 PM.mp4"></video> -->
+            <img src="images/road.jpg" alt="" class="home__img">
             <div class="home-overlay">
                 <div class="home__container">
                     <div class="container">
@@ -220,8 +220,8 @@
             <span class="prehead" style="text-align: center;display: block;">Buses</span>
             <div class="section__title">Our Best Buses</div>
             <div class="container">
-                <div class="row">
-                    <div class="col-md-4 js-scroll slide-left">
+                <div class="owl-carousel owl-theme" id="buses">
+                    <div class="item">
                         
                         <div class="box">
                             
@@ -254,7 +254,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 js-scroll slide-left">
+                    <div class="item">
                         
                         <div class="box">
                             
@@ -287,7 +287,40 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 js-scroll slide-left">
+                    <div class="item">
+                        
+                        <div class="box">
+                            
+                            <div class="detail-bx d-flex align-items-center flex-column">
+                                <div class="img-bx">
+                                    <img src="images/bus7.jpg" alt="">
+                                </div>
+                                <div class="name">24 Seats</div>
+                                <div class="rate"><span>₹2000/day</span></div>
+                            <div class="spec d-flex flex-column align-items-center">
+                                <div class="rw d-flex flex-row align-items-center">
+                                    <i class=" ri-group-fill "></i>
+                                    <span>lorem ipsem</span>
+                                </div>
+                                <div class="rw d-flex flex-row align-items-center">
+                                    <i class="ri-steering-line"></i>
+                                    <span>2 Driver staff</span>
+                                </div>
+                                <div class="rw d-flex flex-row align-items-center">
+                                    <i class="ri-airplay-fill"></i>
+                                    <span>AC available</span>
+                                </div>
+                                <div class="rw d-flex flex-row align-items-center">
+                                    <i class="ri-article-line"></i>
+                                
+                                    <span>Fully insured</span>
+                                </div>
+                        </div>
+                        <a href="" class="btn-main">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
                         
                         <div class="box">
                             
@@ -350,8 +383,8 @@
                         <div class="prehead">testimonial</div>
                         <div class="section__title text-start">What our Clients say</div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, reprehenderit ex ab quisquam blanditiis esse commodi unde qui deserunt dolorum eos temporibus sunt?</p>
-                        <div class="row js-scroll fade-in-bottom">
-                            <div class="col-md-6">
+                        <div class="owl-carousel owl-theme" id="testimonial1">
+                            <div class="item">
                                 <div class="testi-bx d-flex align-items-center">
                                      <div class="d-flex flex-column align-items-center">
                                         <!-- <img src="images/WhatsApp Image 2023-05-24 at 8.58.02 PM.jpeg" alt=""> -->
@@ -372,7 +405,49 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="item">
+                                <div class="testi-bx d-flex align-items-center">
+                                     <div class="d-flex flex-column align-items-center">
+                                        <!-- <img src="images/WhatsApp Image 2023-05-24 at 8.58.02 PM.jpeg" alt=""> -->
+                                   
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. illo error delectus perferendis exercitationem amet voluptatem laborum</p>
+                                        <div class="d-inline">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </div>
+                                       <div class="d-flex align-items-start">
+                                        
+                                        <h6 class="text-center">Ajul C</h6>
+                                       
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testi-bx d-flex align-items-center">
+                                     <div class="d-flex flex-column align-items-center">
+                                        <!-- <img src="images/WhatsApp Image 2023-05-24 at 8.58.02 PM.jpeg" alt=""> -->
+                                   
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. illo error delectus perferendis exercitationem amet voluptatem laborum</p>
+                                        <div class="d-inline">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </div>
+                                       <div class="d-flex align-items-start">
+                                        
+                                        <h6 class="text-center">Ajul C</h6>
+                                       
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
                                 <div class="testi-bx d-flex align-items-center">
                                      <div class="d-flex flex-column align-items-center">
                                         <!-- <img src="images/WhatsApp Image 2023-05-24 at 8.58.02 PM.jpeg" alt=""> -->
@@ -404,7 +479,7 @@
             <div class="section__title">Our Favourite Destinations</div>
            <div class="container">
             <div class="row js-scroll fade-in-bottom">
-                <div class="col-md-4 col-sm-4 col-lg-2">
+                <div class="col-md-4 col-sm-4 col-lg-4">
                   <div class="dest-bx ">
                     <img class="" src="images/desti1.jpg" alt="">
                     <div class="dest-details ">
@@ -414,7 +489,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-4 col-lg-2">
+                <div class="col-md-4 col-sm-4 col-lg-4">
                     <div class="dest-bx ">
                       <img class="" src="images/desti2.jpg" alt="">
                       <div class="dest-details ">
@@ -423,7 +498,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4 col-sm-4 col-lg-2">
+                  <div class="col-md-4 col-sm-4 col-lg-4">
                     <div class="dest-bx ">
                       <img class="" src="images/desti3.webp" alt="">
                       <div class="dest-details ">
@@ -432,7 +507,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4 col-sm-4 col-lg-2">
+                  <div class="col-md-4 col-sm-4 col-lg-4">
                     <div class="dest-bx ">
                       <img class="" src="images/desti4.jpg" alt="">
                       <div class="dest-details ">
@@ -441,7 +516,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4 col-sm-4 col-lg-2">
+                  <div class="col-md-4 col-sm-4 col-lg-4">
                     <div class="dest-bx ">
                       <img class="" src="images/desti5.jpg" alt="">
                       <div class="dest-details ">
@@ -450,7 +525,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4 col-sm-4 col-lg-2">
+                  <div class="col-md-4 col-sm-4 col-lg-4">
                     <div class="dest-bx ">
                       <img class="" src="images/desti6.jpg" alt="">
                       <div class="dest-details ">
@@ -548,8 +623,7 @@
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-     
-<script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
     <script src="js/anime-re.js"></script>
    <script src="js/main.js"></script>
 

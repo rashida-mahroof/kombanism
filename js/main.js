@@ -69,7 +69,7 @@ function playPause(){
 
     }
 }
-videoButton.addEventListener('click', playPause)
+//videoButton.addEventListener('click', playPause)
 
 function finalVideo(){
     // Video ends, icon change
@@ -77,7 +77,7 @@ function finalVideo(){
     videoIcon.classList.add('ri-play-line')
 }
 // ended, when the video ends
-videoFile.addEventListener('ended', finalVideo)
+//videoFile.addEventListener('ended', finalVideo)
 
   $(document).ready(function(){
     $('#gallery').owlCarousel({
@@ -121,6 +121,122 @@ videoFile.addEventListener('ended', finalVideo)
         },
         1000: {
           items: 2
+        }
+      }
+    });
+  });
+  $(document).ready(function(){
+    $('#plan').owlCarousel({
+      nav: true, // Enable navigation arrows
+      dots: true, // Enable dots navigation
+      autoplay:true,
+      loop:true,
+    //   navText: [
+    //     '<i class="ri-arrow-left-s-line" style="color: #787878;font-size: 2rem; background-color: #fff;"></i>', // Remix icon for previous button
+    //     '<i class="ri-arrow-right-s-line" style="color: #787878;font-size: 2rem; background-color: #fff;"></i>' // Remix icon for next button
+    //   ],
+      responsive: {
+        0: {
+          items: 1 // Number of items to show at different screen sizes
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  });
+  $(document).ready(function(){
+    $('#buses').owlCarousel({
+      nav: true, // Enable navigation arrows
+      dots: true, // Enable dots navigation
+      autoplay:true,
+      loop:true,
+      // navText: [
+      //   '<i class="ri-arrow-left-s-line" style="color: #787878;font-size: 2rem; background-color: #fff;"></i>', // Remix icon for previous button
+      //   '<i class="ri-arrow-right-s-line" style="color: #787878;font-size: 2rem; background-color: #fff;"></i>' // Remix icon for next button
+      // ],
+      responsive: {
+        0: {
+          items: 1 // Number of items to show at different screen sizes
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  });
+
+  $(document).ready(function(){
+    $('#review').owlCarousel({
+      nav: false, // Enable navigation arrows
+      dots: true, // Enable dots navigation
+      autoplay:true,
+      loop:true,
+      // navText: [
+      //   '<i class="ri-arrow-left-s-line" style="color: #787878;font-size: 2rem; background-color: #fff;"></i>', // Remix icon for previous button
+      //   '<i class="ri-arrow-right-s-line" style="color: #787878;font-size: 2rem; background-color: #fff;"></i>' // Remix icon for next button
+      // ],
+      responsive: {
+        0: {
+          items: 1 // Number of items to show at different screen sizes
+        },
+        600: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    });
+  });
+  $(document).ready(function(){
+    $('#review').owlCarousel({
+      nav: false, // Enable navigation arrows
+      dots: true, // Enable dots navigation
+      autoplay:true,
+      loop:true,
+      // navText: [
+      //   '<i class="ri-arrow-left-s-line" style="color: #787878;font-size: 2rem; background-color: #fff;"></i>', // Remix icon for previous button
+      //   '<i class="ri-arrow-right-s-line" style="color: #787878;font-size: 2rem; background-color: #fff;"></i>' // Remix icon for next button
+      // ],
+      responsive: {
+        0: {
+          items: 1 // Number of items to show at different screen sizes
+        },
+        600: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    });
+  });
+  $(document).ready(function(){
+    $('#pkgs').owlCarousel({
+      nav: false, // Enable navigation arrows
+      dots: true, // Enable dots navigation
+      autoplay:true,
+      loop:true,
+      navText: [
+        '<i class="ri-arrow-left-s-line" style="color: #787878;font-size: 2rem; background-color: #fff;"></i>', // Remix icon for previous button
+        '<i class="ri-arrow-right-s-line" style="color: #787878;font-size: 2rem; background-color: #fff;"></i>' // Remix icon for next button
+      ],
+      responsive: {
+        0: {
+          items: 2 // Number of items to show at different screen sizes
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 4
         }
       }
     });
